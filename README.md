@@ -3,15 +3,22 @@
 # [卷积神经网络概念与原理](https://blog.csdn.net/yunpiao123456/article/details/52437794)
 ## 一. 卷积神经网络
 ### 1. 卷积层
-卷积神经网络有两种神器可以降低参数数目:
-- 局部感知野
-- 权值共享
+卷积层的主要特征:
+- 局部感知
 
-多卷积核：单个卷积核特征提取是不充分的，我们可以添加多个卷积核，获取不同的特征。
+    
+- 权值共享
+- 多核卷积
+
+参考：
+- [CNN详解（卷积层及下采样层）](https://blog.csdn.net/baidu_14831657/article/details/60570765)
 
 ### 2. 激活函数
     如果不使用非线性激活函数，那么每一层输出都是上层输入的线性组合；
     增加模型的非线性表达能力, 加强网络的表示能力，解决线性模型无法解决的问题
+参考：
+- [激活函数](https://blog.csdn.net/u014088052/article/details/50923924)
+- [常用激活函数（激励函数）理解与总结](https://blog.csdn.net/tyhj_sf/article/details/79932893)
     
 ### 3. 池化层
     主要分平均池化和最大池化。
@@ -34,6 +41,8 @@
 
 参考：
 - [卷积神经网络概念与原理](https://blog.csdn.net/yunpiao123456/article/details/52437794)
+- [从AlexNet理解卷积神经网络的一般结构](https://blog.csdn.net/qq_30868235/article/details/80465722)
+- [](https://blog.csdn.net/q6324266/article/details/72511961)
 - [卷积神经网络CNN总结](https://www.cnblogs.com/skyfsm/p/6790245.html)
 - [什么是全连接层](https://zhuanlan.zhihu.com/p/33841176)
 - [CNN网络架构演进：从LeNet到DenseNet](https://www.cnblogs.com/skyfsm/p/8451834.html)
